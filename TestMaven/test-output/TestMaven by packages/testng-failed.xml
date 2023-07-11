@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [TestMaven by packages]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="webpages_script_googleapplication(failed)">
+    <classes>
+      <class name="webpages_script_googleapplication.TestGoogleSearchPage">
+        <methods>
+          <include name="testGoogleSearchFunctionality"/>
+          <include name="testGoogleSearchSuggestionsCount"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- webpages_script_googleapplication.TestGoogleSearchPage -->
+    </classes>
+  </test> <!-- webpages_script_googleapplication(failed) -->
+</suite> <!-- Failed suite [TestMaven by packages] -->
